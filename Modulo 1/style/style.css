@@ -1,0 +1,31 @@
+@charset "UTF-8"; /*Regra para o padrão UTF-8*/
+h1{
+    background-color: #E87A00;
+    color: #F8DCBF;
+}
+h2{
+    background-color: #001F3D; 
+    color: #F8DCBF;
+}
+mark{
+    background-color: aquamarine;
+}
+body{
+    background-color:#045174;
+}
+
+li{
+    color: #F8DCBF;
+}
+p{
+    color: #F8DCBF;
+}
+ul{
+    color: #F8DCBF;
+}
+ol{
+    color: #F8DCBF;
+}
+a{
+    color: #F8DCBF;
+}
