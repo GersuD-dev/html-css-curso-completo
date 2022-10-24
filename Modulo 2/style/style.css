@@ -1,0 +1,6 @@
+*{/*Seletor global das CSS*/
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(to bottom, #0F6A7B 20%, #3B1B89);
+}
