@@ -4,17 +4,30 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@font-face {
+    font-family: 'Batuphat';
+    src: url(../fonts/Batuphat.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .sobremim{
     background-color: black;    
     border-radius: 15px;
     box-shadow: 4px 4px 5px #5e5449;
     text-align: center;
     color: #F8DCBF;
-    padding: auto;
     padding-top: 1px;
     margin-bottom: 10px;
 }
 
+h1{
+    
+    font-family: Copperplate, Papyrus, fantasy, sans-serif;
+    letter-spacing: 1.5px;
+}
 h2{
     background-color:#E87A00; 
     border-radius: 15px;
@@ -31,20 +44,15 @@ body{
 }
 
 p{
-    font-size: large;
+    font: 1.1em 'Kaushan Script', cursive;
+    text-align: justify;
     background-color: black;
     border-radius: 10px;
     padding: 10px;
     color: #F8DCBF;
-    text-align: justify;
 }
 
-ul{
-    list-style:none;
-    padding: 10px;
-    margin: 10px;
-}
-ol{    
+ul, ol{
     list-style:none;
     padding: 10px;
     margin: 10px;
@@ -62,5 +70,5 @@ mark{
 a{
     color:#001F3D;
     text-decoration:none;
-    font-weight: bold;
+    font-weight: bolder;
 }
