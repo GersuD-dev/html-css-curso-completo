@@ -13,21 +13,17 @@
     font-style: normal;
 }
 
-.sobremim{
-    background-color: black;    
-    border-radius: 15px;
-    box-shadow: 4px 4px 5px #5e5449;
-    text-align: center;
-    color: #F8DCBF;
-    padding-top: 1px;
-    margin-bottom: 10px;
+body{
+    background-color:#F8DCBF ;
+    margin: 30px;
 }
 
 h1{
     
-    font-family: Copperplate, Papyrus, fantasy, sans-serif;
+    font-family: fantasy, sans-serif;
     letter-spacing: 1.5px;
 }
+
 h2{
     background-color:#E87A00; 
     border-radius: 15px;
@@ -36,11 +32,6 @@ h2{
     color:#F8DCBF;
     padding: 7px;
     margin: auto;
-}
-
-body{
-    background-color:#F8DCBF ;
-    margin: 30px;
 }
 
 p{
@@ -52,23 +43,43 @@ p{
     color: #F8DCBF;
 }
 
-ul, ol{
-    list-style:none;
-    padding: 10px;
-    margin: 10px;
-}
-
-li{ 
-    text-align: center;
-    color:#001F3D;
-}
 
 mark{
     background-color: aquamarine;
 }
 
-a{
+.posicaolistas{
+    padding: 10px;
+    text-align: center;
     color:#001F3D;
-    text-decoration:none;
     font-weight: bolder;
+    list-style:none;
+}
+
+.semlinha{
+    text-decoration:none;
+}
+
+div#sobremim{
+    background-color: black;    
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px #5e5449;
+    text-align: center;
+    color: #F8DCBF;
+    padding-top: 1px;
+    margin-bottom: 10px;
+}
+div#topmargin{
+    margin-top: -5px;
+}
+
+img#ajusteimg{
+    margin-left: auto; 
+    margin-right:auto; 
+    display: block; 
+    padding: 5px;
+}
+
+a#linhaecoriniciacao{
+    color: #F8DCBF; 
 }
