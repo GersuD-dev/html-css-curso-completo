@@ -31,16 +31,13 @@ h2{
     text-align: center;
     color:#F8DCBF;
     padding: 7px;
-    margin: auto;
+    margin: 1em;
 }
 
 p{
-    font: 1.1em 'Kaushan Script', cursive;
-    text-align: left;
-    background-color: black;
     border-radius: 10px;
     padding: 10px;
-    color: #F8DCBF;
+    color: black;
 }
 
 mark{
@@ -59,6 +56,14 @@ mark{
     text-decoration:none;
 }
 
+p#fontesobremim{
+    font: 1.1em 'Kaushan Script', cursive;
+    text-align: left;
+    background-color: black;
+    color: #F8DCBF;
+    margin-top: -5px;
+}
+
 div#sobremim{
     background-color: black;    
     border-radius: 15px;
@@ -67,9 +72,6 @@ div#sobremim{
     color: #F8DCBF;
     padding-top: 1px;
     margin-bottom: 10px;
-}
-div#topmargin{
-    margin-top: -5px;
 }
 
 img#ajusteimg{
@@ -81,4 +83,5 @@ img#ajusteimg{
 
 a#linhaecoriniciacao{
     color: #F8DCBF; 
+    font: 1.1em 'Kaushan Script', cursive;
 }
