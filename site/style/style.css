@@ -1,0 +1,84 @@
+@charset "UTF-8"; /*Regra para o padrão UTF-8*/
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@font-face {
+    font-family: 'Batuphat';
+    src: url(../fonts/Batuphat.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color:#F8DCBF ;
+    margin: 30px;
+}
+
+h1{
+    
+    font-family: fantasy, sans-serif;
+    letter-spacing: 1.5px;
+}
+
+h2{
+    background-color:#E87A00; 
+    border-radius: 15px;
+    box-shadow: 3px 3px 4px #5e5449;
+    text-align: center;
+    color:#F8DCBF;
+    padding: 7px;
+    margin: auto;
+}
+
+p{
+    font: 1.1em 'Kaushan Script', cursive;
+    text-align: left;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    color: #F8DCBF;
+}
+
+mark{
+    background-color: aquamarine;
+}
+
+.posicaolistas{
+    padding: 10px;
+    text-align: center;
+    color:#001F3D;
+    font-weight: bolder;
+    list-style:none;
+}
+
+.semlinha{
+    text-decoration:none;
+}
+
+div#sobremim{
+    background-color: black;    
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px #5e5449;
+    text-align: center;
+    color: #F8DCBF;
+    padding-top: 1px;
+    margin-bottom: 10px;
+}
+div#topmargin{
+    margin-top: -5px;
+}
+
+img#ajusteimg{
+    margin-left: auto; 
+    margin-right:auto; 
+    display: block; 
+    padding: 5px;
+}
+
+a#linhaecoriniciacao{
+    color: #F8DCBF; 
+}
