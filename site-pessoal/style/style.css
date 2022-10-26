@@ -1,0 +1,126 @@
+@charset "UTF-8"; /*Regra para o padrão UTF-8*/
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@font-face {
+    font-family: 'Batuphat';
+    src: url(../fonts/Batuphat.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 8px 0px 0px 0;
+    background-color:#F8DCBF;
+}
+
+header, main{
+    margin: 30px;
+}
+
+h1{
+    
+    font-family: fantasy, sans-serif;
+    letter-spacing: 1.5px;
+}
+
+h2{
+    background-color:#E87A00; 
+    border-radius: 15px;
+    box-shadow: 3px 3px 4px #5e5449;
+    text-align: center;
+    color:#F8DCBF;
+    padding: 7px;
+}
+
+p{
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+}
+
+mark{
+    background-color: aquamarine;
+}
+
+hr{
+    color:#F8DCBF;
+}
+
+a{
+    color:#01284e;
+}
+
+footer{
+    background-color: #001F3D;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+footer > p{
+    margin: 0px;
+    
+    color: #F8DCBF;
+}
+
+a:visited{
+    color: #01284e;
+}
+
+div > p{
+    display: none;
+    border: 
+}
+
+
+div:hover > p{
+    display: block;
+}
+
+.posicaolistas{
+    padding: 10px;
+    text-align: center;
+    color:#001F3D;
+    font-weight: bolder;
+    list-style:none;
+}
+
+.semlinha{
+    text-decoration:none;
+}
+
+p#fontesobremim{
+    font: 1.1em 'Kaushan Script', cursive;
+    text-align: left;
+    background-color: black;
+    color: #F8DCBF;
+    margin-top: -5px;
+}
+
+div#sobremim{
+    background-color: black;    
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px #5e5449;
+    text-align: center;
+    color: #F8DCBF;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    margin-bottom: 10px;
+}
+
+img#ajusteimg{
+    margin-left: auto; 
+    margin-right:auto; 
+    display: block; 
+    padding: 5px;
+}
+
+a#linhaecoriniciacao{
+    color: #F8DCBF; 
+    font: 1.1em 'Kaushan Script', cursive;
+}
